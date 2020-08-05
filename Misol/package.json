@@ -1,0 +1,26 @@
+{
+    "name": "deqon_server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongodb": "^3.5.9",
+        "mongoose": "^5.9.22",
+        "nexmo": "^2.8.0",
+        "nodemailer": "^6.4.10",
+        "nodemon": "^2.0.4",
+        "random": "^2.2.0",
+        "sms-gateway-nodejs": "^0.1.0",
+        "sms-service": "^1.1.7",
+        "textmagic-rest-client": "^1.0.10"
+    }
+}
